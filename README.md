@@ -27,8 +27,6 @@ $ npm start
 1. Click **Deploy to Netlify** above.
 2. On the "Create New App" page in Netlify, fill in the required information.
 3. Click **Deploy app**.
-4. Click **View** to confirm that your app is successfully deployed. You should see a page with the text "You have not assigned any value for LIFF ID". 
-5. Take a note of your app's URL (`https://{Netlify app name}.netlify.app`). You'll need it when you add the app to LIFF.
 
 ### Build and deploy the app with Netlify CLI tools
 
