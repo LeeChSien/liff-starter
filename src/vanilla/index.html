@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/javascript.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+  <title>LIFF Starter</title>
+
+</head>
+
+<body>
+  <div id="panel" class="liff-browser">
+    <div class="head">
+      LIFF Starter
+    </div>
+    <div class="body">
+      <p>
+        It's a simple app to demonstrate how to integrate <a href="https://developers.line.biz/en/docs/liff/overview/" target="_blank">LIFF</a> (LINE Frontend Frameworks).
+      </p>
+      <div class="code">
+        <pre>
+        <code class="language-javascript">import liff from '@line/liff'
+
+liff
+  .init({ 'Your LIFF ID' })
+  .then(() => {
+    // Do something with LIFF API.
+  })
+  .catch((error) => {
+    console.log(error);
+  })</code>
+        </pre>
+      </div>
+      <p>
+        If you want to know more detail, please check:
+      </p>
+    </div>
+    <div class="foot">
+      <a class="button outlined" href="https://developers.line.biz/en/docs/liff/overview/" target="_blank">Documentation</a>
+      <a class="button" href="https://liff-playground.netlify.app/" target="_blank">LIFF Playground</a>
+    </div>
+  </div>
+</body>
+
+</html>
