@@ -9,13 +9,13 @@ You can check the source code and modify it to implement some cool stuff with LI
 Install dependencies
 
 ```sh
-npm ci
+$ npm ci
 ```
 
 You can run local server with:
 
 ```sh
-npm start
+$ npm start
 ```
 
 ## Build & Deploy
@@ -35,25 +35,25 @@ npm start
 1. Install Netlify CLI tool from npm.
 
 ```sh
-npm install netlify-cli -g
+$ npm install netlify-cli -g
 ```
 
 2. Run following command to build project.
 
 ```sh
-LIFF_ID="your LIFF ID" npm run build
+$ LIFF_ID="your LIFF ID" npm run build
 ```
 
 3. Make sure you have signed in your Netlify account.
 
 ```sh
-netlify login
+$ netlify login
 ```
 
 4. Deploy to Netlify
 
 ```sh
-netlify deploy
+$ netlify deploy
 ```
 
 5. Create your site name and choose the source path `dist` to deploy.
@@ -61,7 +61,7 @@ netlify deploy
 6. You can see the stating(draft) site URL, once you confirm it you can deploy it to production stie.
 
 ```sh
-netlify deploy --prod
+$ netlify deploy --prod
 ```
 
 ## Demo site
